@@ -1,38 +1,41 @@
-h3{
+h3 {
   font-size: 36px;
   margin: 3%;
 }
-img{
-  max-width: 90%;
-  margin: 5%;
-  margin-top: 0;
+body {
+  width: 400px
 }
-.info{
-  width: 90%;
-  margin: 5%;
+img {
+  max-width: 300px;
+  margin: 50px;
+}
+.info {
+  width: 300px;
+  margin-right: 50px;
+  margin-left: 50px;
   margin-top: 0;
   padding: 2%;
   border: 1px solid #D3D3D3;
 }
-.interesting-fact{
+.interesting-fact {
   font-style: italic;
 }
-ul{
+ul {
   list-style: none;
   padding-left: 2%;
 }
-span{
+span {
   font-weight: bold;
 }
-@media (min-width: 700px) {
-  body{
-    width: 700px;
+@media (min-width: 400px) {
+  body {
+    width: 400px;
     padding: 2%;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #D3D3D3;
   }
-  h3{
+  h3 {
     font-size: 3em;
   }
 }
